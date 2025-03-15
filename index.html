@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Los Pollos Hermanos</title>
+    <link rel="stylesheet" href="src/main.scss" />
+  </head>
+  <body>
+
+    <header class="header">
+
+      <video autoplay muted loop class="header-video">
+        <source src="src/assets/videos/hero-video.mp4" type="video/mp4">
+      </video>
+      
+      <nav class="nav">
+        <ul>
+          <li><a href="#info">Info</a></li>
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="#location">Location</a></li>
+          
+        </ul>
+      </nav>
+      <img class="header-img" src="src/assets/images/header/lph-logo.png" alt="Los Pollos Hermanos Logo"  />
+    </header>
+    
+    <hero class="hero">
+      <div class="title">
+        Order fried,
+        <span>Chicken Now</span>
+      </div>
+      <div class="description">
+        Get famous chicken however you want it. 
+      </div>
+      <button class="btn">Order Now</button>
+    </hero>
+
+
+    <menu class="menu" id="menu">
+      <h2 class="menu-title">Our Menu</h2>
+      <div class="menu-grid" id="menuContainer">
+          <!-- JS will inject menu items here -->
+      </div>
+    </menu>
+
+    <section id="location" class="location">
+      <div class="location-info">
+        <h2>New Los Pollos Hermanos restaurant in Madrid!</h2>
+        <p>
+          The first establishment in Spain to incorporate the new company image. The restaurants sporting the new image have been warmly welcomed by the public, with growth above 30% in those premises with the new Los Pollos Hermanos identity.
+        </p>
+        <p>
+          Los Pollos Hermanos, flagship brand of Eat Out restoration group, announced the opening of its first restaurant in Madrid, at Puerta de Alcalá.
+        </p>
+      </div>
+    
+      <div id="map"></div>
+    
+      <button id="getDirections" class="btn-directions">Get Directions</button>
+      <!-- Leaflet.js (CDN) -->
+      <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+      <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+      </section>
+
+      <section id="info" class="partners">
+        <div class="partner-fever">
+          <div>In Partnership With: </div>
+          <img src="src\assets\images\general\fever-logo.svg" alt="Feverlogo">
+        </div>
+
+        <div class="partner-lph">
+          <div >Event By: </div>
+          <img src="src\assets\images\header\lph-logo.png" alt="lph-logo">
+        </div>
+        
+      </section>
+
+      <footer class="footer">
+          <div>© 2022 LPH / Los pollos hermanos. All Rights Reserved. Los
+            Pollos Hermanos is an original license. Privacy policy
+          </div>
+        </footer>
+    <!-- Do not edit below this line -->
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>

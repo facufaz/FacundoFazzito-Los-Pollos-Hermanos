@@ -1,0 +1,30 @@
+.hero{
+
+    height : 30rem;
+    padding: 0 1rem 0 0 ;
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../images/hero.jpg');
+}
+.title{
+font-size: 3rem;
+font-weight: 700;
+}
+.title span{
+    color: $c-fever-blue-primary;
+}
+.description{
+margin-top: 2rem;
+color: $c-white;
+}
+.btn{
+margin-top: 2rem ;
+padding: 0.5rem 1rem 0.5rem 1rem;
+border-radius: 6px;
+background-color: $c-fever-yellow;
+color: black;
+font-weight: 700;
+}

@@ -1,0 +1,30 @@
+.location {
+    background-color: #b22222;
+    color: white;
+    text-align: center;
+    padding: 20px;
+  
+    .location-info {
+      max-width: 600px;
+      margin: auto;
+      padding: 10px;
+    }
+  
+    #map {
+      width: 100%;
+      height: 300px;
+      border-radius: 10px;
+      margin: 15px 0;
+    }
+  
+    .btn-directions {
+      background-color: yellow;
+      color: black;
+      font-weight: bold;
+      border: none;
+      padding: 10px 20px;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+  }
+  

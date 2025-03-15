@@ -1,0 +1,31 @@
+.header{
+
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;    
+    color: $c-fever-blue-dark;
+  font-size: 1.2rem;
+  font-weight: 550;
+}
+.header-img{
+    height: 4rem;
+    width: 4rem;
+}
+.nav ul{
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    padding-right: 1rem;
+}
+.header-video {
+    background: rgba(0, 0, 0, 0.5);
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    max-height: 120vh;
+  }

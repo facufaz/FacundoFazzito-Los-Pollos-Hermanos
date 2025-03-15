@@ -1,0 +1,28 @@
+.partners{
+    background-color: $c-fever-blue-dark;
+    display: flex; 
+    flex-direction: column;
+    align-content: space-between;
+
+    gap: 1rem;
+    padding: 1rem 1rem 1rem 0;
+}
+.partner-fever{
+    display: flex;
+    padding-left: 2rem;
+    gap: 3rem;
+    color: white;
+    font-size: 2rem;
+}
+
+.partner-lph{
+    display: flex;
+    padding-left: 2rem;
+    gap: 10rem;
+    color: white;
+    font-size: 2rem;
+}
+.partner-lph img{
+    height: 3rem;
+    width: 3rem;
+}
