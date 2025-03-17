@@ -12,6 +12,7 @@
 .title{
 font-size: 3rem;
 font-weight: 700;
+padding-right: 2rem;
 }
 .title span{
     color: $c-fever-blue-primary;
@@ -27,4 +28,16 @@ border-radius: 6px;
 background-color: $c-fever-yellow;
 color: black;
 font-weight: 700;
+}
+@media (min-width: 1000px) {
+    .title{
+        font-size: 4.5rem;
+    }
+    .description{
+        font-size: 2rem;
+    }
+    .btn{
+        margin-top: 3rem;
+        font-size: 1.2rem;
+    }
 }
